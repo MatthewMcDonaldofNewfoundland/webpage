@@ -1,0 +1,105 @@
+
+.headerclass{
+        background-color: rgb(56, 57, 70);
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16p
+        color: rgb(165, 165, 197);
+        display: flex;
+        background-color: rgb(56, 57, 70);
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 100px 0px 200px;
+    margin: 0px 200px 0px 200px;
+    border: 0px 200px 0px 200px;
+}
+  .contains {
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .menu-link:hover {
+  background-color: rgb(59, 55, 65);
+  animation-name: grow-taller;
+  animation-fill-mode: forwards;
+}
+.menu-link, a { margin-left: 10px;
+  color:white;
+  
+  } 
+  .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+  .image, .container {
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    background-color: rgb(56, 57, 70);
+  }
+
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    background-color: rgb(56, 57, 70);
+  }
+  
+  h2 {
+    margin-top: 0;
+    width: 700px;
+  }
+
+  #about, #skills, #experience, #contact {
+    color: rgb(165, 165, 197);
+    display: flex;
+    background-color: rgb(13, 11, 27);
+    flex-direction: column;
+    justify-content: flex-start;
+   
+    fgalign-items: center;
+    
+    borader-style: solid;
+    borader-color: rgb(0, 0, 0);
+    bbox-shadow: 10px 10px 8px 8px #000000;
+    padding: 0px 200px 0px 200px;
+    margin: 110px 200px 0px 200px;
+    border: 0px 200px 0px 200p
+  }
+
+  body {
+    badckground-color: rgb(29, 30, 36);
+    font-family: 'Open  Sans', sans-serif;
+    color: rgb(165, 165, 197);
+    font-size: 20px
+    background: url('https://images.unsplash.com/photo-1471644518115-1f02e9819854?w=1500');
+    background: url('https://img4.goodfon.com/original/1920x1080/f/f5/deep-space-9-kosmicheskaia-stantsiia-zviozdy-kosmos-krugovor.jpg');
+    background-position: cover;
+    background-attachment: fixed;
+    height: 300px;
+ 
+  }
+
+  .a:cotn {
+    background-color: rgb(131, 80, 212);
+  }
+ 
+
+   
+hr {
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  background-color: rgb(131, 80, 2)
+
+}
+meter::-webkit-meter-optimum-value {
+  background: rgb(0, 17, 255);
+}
+
+meter::-webkit-meter-bar {
+  background: rgb(153, 5, 211);
+}
